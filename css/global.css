@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Livemono";
+  src: url("../fonts/livemono.otf");
+}
+
+body {
+  margin: 20px 80px;
+}

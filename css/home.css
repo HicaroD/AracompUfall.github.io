@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home img {
+  object-fit: contain;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  list-style-type: none;
+  font-family: "Livemono";
+  padding: 15px;
+}
+
+.navbar li a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #f72585;
+  transition: 0.3s;
+}
