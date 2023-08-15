@@ -40,6 +40,7 @@
 
 #title {
   padding-top: 80px;
+  padding-bottom: 20px;
   font-family: "Organo";
   font-size: 50px;
 }
@@ -47,6 +48,7 @@
 #description {
   font-family: "Livemono";
   color: #7209b7;
+  padding-bottom: 10px;
 }
 
 .learn-more-button {
@@ -59,7 +61,18 @@
   color: #ffffff;
   background-color: #f72585;
   font-family: "Livemono";
+  font-size: 18px;
   padding: 10px 30px;
   border: none;
   cursor: pointer;
+}
+
+.learn-more-button button:hover {
+  background-color: #ff64ab;
+  transition: 0.3s;
+}
+
+.learn-more-button button:active {
+  transition: background-color 0.2s ease-in-out;
+  background-color: #7209b7;
 }
