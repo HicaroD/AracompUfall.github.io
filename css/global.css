@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Livemono";
+  src: url("../fonts/livemono.otf");
+}
+
+@font-face {
+  font-family: "Organo";
+  src: url("../fonts/organo.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
