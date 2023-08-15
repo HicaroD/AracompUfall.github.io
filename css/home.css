@@ -1,28 +1,65 @@
 .home {
-  display: flex;
-  justify-content: space-between;
-}
-
-.home img {
-  object-fit: contain;
+  margin: 20px 80px;
 }
 
 .navbar {
   display: flex;
+  justify-content: space-between;
 }
 
-.navbar li {
+.navbar img {
+  object-fit: contain;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-items li {
   list-style-type: none;
   font-family: "Livemono";
   padding: 15px;
 }
 
-.navbar li a {
+.navbar-items li a {
   color: #2c2c2c;
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar-items li a:hover {
   color: #f72585;
   transition: 0.3s;
+}
+
+.aracomp-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#title {
+  padding-top: 80px;
+  font-family: "Organo";
+  font-size: 50px;
+}
+
+#description {
+  font-family: "Livemono";
+  color: #7209b7;
+}
+
+.learn-more-button {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.learn-more-button button {
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #f72585;
+  font-family: "Livemono";
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
 }

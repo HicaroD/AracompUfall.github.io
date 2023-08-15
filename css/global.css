@@ -3,6 +3,11 @@
   src: url("../fonts/livemono.otf");
 }
 
+@font-face {
+  font-family: "Organo";
+  src: url("../fonts/organo.ttf");
+}
+
 body {
-  margin: 20px 80px;
+  margin: 0;
 }
