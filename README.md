@@ -37,3 +37,5 @@ original.
 6. Agora, dê um nome para sua PR e clique em "Create pull request":
 
 ![github_pr](./docs/github_pr.png)
+
+7. Agora, aguarde sua PR ser aceita pelo dono do repositório
