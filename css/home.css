@@ -1,21 +1,19 @@
 .home-content {
-  background: radial-gradient(#bac5f4, #f0c5f6);
-  background-size: 400% 400%;
-  background-color: #c8d1ff;
-  animation: gradient 15s ease infinite;
+  z-index: 10;
   border-bottom-right-radius: 60%;
 }
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.gradient{
+  z-index: -1;
+  position: absolute;
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  filter: blur(200px);
+}
+#blob{
+  min-width: 45%;
 }
 
 .navbar {
@@ -94,4 +92,183 @@
 .learn-more-button button:active {
   transition: background-color 0.2s ease-in-out;
   background-color: #7209b7;
+}
+
+.blue1{
+  position: absolute;
+  right: -5%;
+  bottom: -20%;
+  animation: blobblue1 10s linear infinite;
+}
+.blue2{
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+  animation: blobblue2 10s linear infinite;
+
+}
+.pink1{
+  position: absolute;
+  right: -5%;
+  bottom: 50%;
+  animation: blobpink1 10s linear infinite;
+}
+.pink2{
+  position: absolute;
+  right: 70%;
+  bottom: -20%;
+  animation: blobpink2 10s linear infinite;
+}
+.purple1{
+  position: absolute;
+  right: 75%;
+  bottom: 45%;
+  animation: blobpurple1 10s linear infinite;
+}
+.purple2{
+  position: absolute;
+  right: 50%;
+  bottom: -15%;
+  animation: blobpurple2 10s linear infinite;
+}
+
+@keyframes blobblue1 {
+  0% {
+    right: -5%;
+    bottom: -20%;
+  }
+  25% {
+    right: 75%;
+    bottom: -30%;
+  }
+  50% {
+    right: -10%;
+    bottom: -30%;
+  }
+  75% {
+    right: -10%;
+    bottom: -30%;
+  }
+  100% {
+    right: -5%;
+    bottom: -20%;
+  }
+
+}
+
+@keyframes blobblue2 {
+  0% {
+    right: 30%;
+    bottom: 30%;
+  }
+  25% {
+    right: 0%;
+    bottom: -30%;
+  }
+  50% {
+    right: 70%;
+    bottom: 40%;
+  }
+  75% {
+    right: 40%;
+    bottom: -25%;
+  }
+  100% {
+    right: 30%;
+    bottom: 30%;
+  }
+
+}
+
+@keyframes blobpink1 {
+  0% {
+    right: -5%;
+    bottom: 50%;
+  }
+  25% {
+    right: -10%;
+    bottom: 30%;
+  }
+  50% {
+    right: -15%;
+    bottom: 40%;
+  }
+  75% {
+    right: -10%;
+    bottom: 35%;
+  }
+  100% {
+    right: -5%;
+    bottom: 50%;
+  }
+
+}
+@keyframes blobpink2 {
+  0% {
+    right: 70%;
+    bottom: -20%;
+  }
+  25% {
+    right: 10%;
+    bottom: 45%;
+  }
+  50% {
+    right: 40%;
+    bottom: -10%;
+  }
+  75% {
+    right: 35%;
+    bottom: 50%;
+  }
+  100% {
+    right: 70%;
+    bottom: -20%;
+  }
+
+}
+@keyframes blobpurple1 {
+  0% {
+    right: 75%;
+    bottom: 45%;
+  }
+  25% {
+    right: 40%;
+    bottom: 35%;
+  }
+  50% {
+    right: 20%;
+    bottom: 45%;
+  }
+  75% {
+    right: 75%;
+    bottom: -15%;
+  }
+  100% {
+    right: 75%;
+    bottom: 45%;
+  }
+
+}
+@keyframes blobpurple2 {
+  0% {
+    right: 50%;
+    bottom: -15%;
+  }
+  25% {
+    right: 75%;
+    bottom: 55%;
+  }
+  50% {
+    right: 80%;
+    bottom: 5%;
+  }
+  75% {
+    right: 70%;
+    bottom: -4%;
+  }
+  100% {
+    right: 50%;
+    bottom: -15%;
+  }
+
 }
