@@ -2,52 +2,111 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
     <title>Aracomp UFAL - 2023</title>
 
     <link rel="shortcut icon" href="img/logos/logo.svg" type="image/svg" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/home.css" />
-
     <script src="js/home.js" defer></script>
   </head>
   <body>
-    <div class="home-content">
-      <div class="home">
-        <div class="navbar">
-          <img src="img/logos/logo2.png" alt="" />
-          <ul class="navbar-items">
-            <li><a href="#">_sobre_</a></li>
-            <li><a href="#">_conteúdo_</a></li>
-            <li><a href="#">_palestrantes_</a></li>
-            <li><a href="#">_inscrições_</a></li>
-            <li><a href="#">_contato_</a></li>
-          </ul>
+    <header>
+      <div class="navbar">
+        <img src="img/logos/logo2.png" alt="" />
+        <ul class="navbar-items">
+          <li><a href="#about">_sobre_</a></li>
+          <li><a href="#content">_conteúdo_</a></li>
+          <li><a href="#speakers">_palestrantes_</a></li>
+          <li><a href="#subscribe">_inscrições_</a></li>
+          <li><a href="#contact-us">_contato_</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="welcomepage">
+        <div class="gradient">
+          <img id="blob" class="blue1" src="img/gradient/blobblue1.svg">
+          <img id="blob" class="blue2" src="img/gradient/blobblue2.svg">
+          <img id="blob" class="pink1" src="img/gradient/blobpink1.svg">
+          <img id="blob" class="pink2" src="img/gradient/blobpink2.svg">
+          <img id="blob" class="purple1" src="img/gradient/blobpurple1.svg">
+          <img id="blob" class="purple2" src="img/gradient/blobpurple2.svg">
+        </div>
+        <div class="home-content">
+          <div class="home">
+            <div class="aracomp-info">
+              <h1 id="title">
+                <span style="color: #7209b7">_</span>entre 4 e 6 de setembro!
+              </h1>
+              <p id="description">
+                Prepare-se para o maior evento de computação e tecnologia da UFAL - campus Arapiraca_
+              </p>
+            </div>
+            <div class="learn-more-button">
+              <button>_saiba mais_</button>
+            </div>
+          </div>
+        </div>
+        <div class="divider-home">
+      </section>
+      <section id="about">
+        <div class="section-title">
+          <h1 ><span style="color: #7209b7">_</span>Aracomp?</h1>
         </div>
 
-        <div class="aracomp-info">
-          <h1 id="title">
-            <span style="color: #7209b7">_</span>Um titulo chamativo aqui
-          </h1>
-          <p id="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus
-            est atque facilis error sed distinctio consectetur. Commodi,
-            pariatur et ullam facere fugiat autem deleniti cupiditate odio enim
-            cum mollitia?
-          </p>
+      </section>      
+      <section id="content">
+        <div class="section-title">
+          <h1 ><span style="color: #F72585">_</span>O QUE TEREMOS?</h1>
         </div>
-        <div class="learn-more-button">
-          <button>_saiba mais_</button>
+
+      </section>
+      <section id="speakers">
+        <div class="section-title">
+          <h1><span style="color: #4361EE">_</span>Palestrantes</h1>
         </div>
-      </div>
-    </div>
+        <div class="card-area">
+          <div class="card">
+            <div class="card-content">
+            <div class="card-text-area">
+              <div class="speaker-name">Jonh Doe</div>
+              <div class="speaker-title">atribuição</div>
+              <div class="speaker-description">quem eh esse mano</div>
+            </div>
+            <div class="card-image-area">
+              <img src="https://placehold.co/400" alt="">
+            </div>
+          </div>
+            <div class="card-line"></div>
+          </div>
+          <div class="card">
+            <div class="card-content-reversed">
+            <div class="card-image-area">
+              <img src="https://placehold.co/400" alt="">
+            </div>
+            <div class="card-text-area">
+              <div class="speaker-name">Jonh Doe</div>
+              <div class="speaker-title">atribuição</div>
+              <div class="speaker-description">quem eh esse mano</div>
+            </div>
+          </div>
+            <div class="card-line"></div>
+          </div>
+        </div>
+      </section>
+      <section id="subscribe">
+        <div class="section-title">
+          <h1><span style="color: #7209b7">_</span>Participe!</h1>
+        </div>
+      </section>
+      <section id="contact-us">
+        <div class="section-title">
+          <h1><span style="color: #F72585">_</span>Fale conosco!</h1>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
