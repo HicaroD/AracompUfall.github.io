@@ -1,21 +1,38 @@
 .home-content {
-  z-index: 10;
-  border-bottom-right-radius: 60%;
+  z-index: 1;
 }
 .gradient{
   z-index: -1;
-  position: absolute;
+  position: fixed;
   overflow-y: hidden; 
   overflow-x: hidden; 
   height: 100vh;
   width: 100%;
   background-color: #fff;
-  filter: blur(200px);
+  filter: blur(180px);
 }
 #blob{
   min-width: 45%;
 }
+#about{
+  padding: 1.5rem;
+  background-color: #fff;
+}
+#welcomepage{
+  height: 89.5vh;
+}
 
+.divider-home{
+  display: block;
+  z-index: 0;
+  position: absolute;
+  background-image: url("../img/elements/Divider.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  width: 100vw;
+  height: 35vh; 
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -51,14 +68,16 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin: 0rem 35rem;
+  width: 40%;
+  margin: auto;
 }
 
 #title {
-  
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: 2rem;
+  font-weight: 00;
   font-family: "Organo";
+  text-align: center;
   color: #2c2c2c;
   font-size: 75px;
 }
@@ -71,6 +90,7 @@
 }
 
 .learn-more-button {
+  z-index: 10;
   padding-top: 10px;
   text-align: center;
 }
@@ -89,7 +109,7 @@
 
 .learn-more-button button:hover {
   background-color: #ff64ab;
-  transition: 0.3s;
+  transition: 0.2s ease-in-out;
 }
 
 .learn-more-button button:active {
