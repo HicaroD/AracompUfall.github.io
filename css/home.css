@@ -142,7 +142,14 @@ section{
 .card-content{
   display: flex;
   flex-direction: row;
+  gap: 20rem;
   justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+.card-content-reversed{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
   padding-bottom: 1.5rem;
 }
 .card-text-area{
