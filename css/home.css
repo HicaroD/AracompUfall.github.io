@@ -14,14 +14,20 @@
 #blob{
   min-width: 45%;
 }
-#about{
-  padding: 1.5rem;
+section{
+  padding: 1.5rem 5rem;
   background-color: #fff;
 }
 #welcomepage{
+  background-color: transparent;
+  padding: 0;
   height: 89.5vh;
 }
-
+.section-title{
+  color: #2c2c2c;
+  font-family: "Organo";
+  font-weight: 200;
+}
 .divider-home{
   display: block;
   z-index: 0;
@@ -75,7 +81,7 @@
 #title {
   padding-top: 12rem;
   padding-bottom: 2rem;
-  font-weight: 00;
+  font-weight: 500;
   font-family: "Organo";
   text-align: center;
   color: #2c2c2c;
