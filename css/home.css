@@ -361,3 +361,16 @@ section {
   padding-top: 20px;
   font-family: "Livemono";
 }
+
+#content {
+  background: linear-gradient(0.25turn, #BAC5F4, #F0C5F6);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.content-card {
+}
