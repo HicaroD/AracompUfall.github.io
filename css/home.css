@@ -370,7 +370,10 @@ section {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  font-family: "Livemono";
+  color: #4361EE;
 }
 
 .content-card {
+  border: 2px solid red;
 }
