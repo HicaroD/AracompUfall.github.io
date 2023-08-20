@@ -363,17 +363,40 @@ section {
 }
 
 #content {
-  background: linear-gradient(0.25turn, #BAC5F4, #F0C5F6);
+  background: linear-gradient(0.25turn, #bac5f4, #f0c5f6);
 }
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 50px;
   font-family: "Livemono";
-  color: #4361EE;
+  color: #4361ee;
 }
 
 .content-card {
-  border: 2px solid red;
+  background-color: #ffffff;
+  height: auto;
+  width: 250px;
+  border: 2px solid #4361ee;
+  border-radius: 26px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+  border-collapse: collapse;
+}
+
+.content-card h3 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.content-card p {
+  padding: 10px 15px 10px 15px;
+  color: #2c2c2c;
+}
+
+.content-card img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0px 15px 0px;
 }
