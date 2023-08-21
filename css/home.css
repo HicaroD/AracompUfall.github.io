@@ -1,29 +1,29 @@
 .home-content {
   z-index: 1;
 }
-.gradient{
+.gradient {
   z-index: -1;
   position: fixed;
-  overflow-y: hidden; 
-  overflow-x: hidden; 
+  overflow-y: hidden;
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   background-color: #fff;
   filter: blur(180px);
 }
-#blob{
+#blob {
   min-width: 45%;
 }
-section{
+section {
   padding: 1.5rem 8rem;
   background-color: #fff;
 }
-#welcomepage{
+#welcomepage {
   background-color: transparent;
   padding: 0;
   height: 89.5vh;
 }
-.section-title{
+.section-title {
   color: #2c2c2c;
   font-family: "Organo";
   font-size: x-large;
@@ -113,7 +113,7 @@ section{
   transition: background-color 0.2s ease-in-out;
   background-color: #7209b7;
 }
-.divider-home{
+.divider-home {
   display: block;
   z-index: 0;
   position: absolute;
@@ -122,101 +122,100 @@ section{
   background-size: cover;
   bottom: 0;
   width: 100vw;
-  height: 35vh; 
+  height: 35vh;
 }
 
-.card-area{
+.card-area {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
 }
-.card{
+.card {
   padding-top: 2rem;
 }
-.card:hover .speaker-name{
+.card:hover .speaker-name {
   color: #7209b7;
 }
-.card:hover .card-line{
+.card:hover .card-line {
   border: #7209b7 1px solid;
 }
-.card-content{
+.card-content {
   display: flex;
   flex-direction: row;
   gap: 20rem;
   justify-content: space-between;
   padding-bottom: 1.5rem;
 }
-.card-content-reversed{
+.card-content-reversed {
   display: flex;
   flex-direction: row;
   gap: 10rem;
   padding-bottom: 1.5rem;
 }
-.card-text-area{
+.card-text-area {
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
 }
-.card-image-area img{
+.card-image-area img {
   width: 25rem;
   border-radius: 100%;
 }
-.speaker-name{
+.speaker-name {
   font-family: "Livemono";
   font-size: 2rem;
   font-weight: 500;
-  color: #4361EE;
+  color: #4361ee;
   transition: 0.2s all ease-in-out;
 }
-.speaker-title{
+.speaker-title {
   font-family: "Livemono";
   font-size: 1rem;
   font-weight: 300;
   color: #7209b7;
 }
-.speaker-description{
+.speaker-description {
   font-family: "Livemono";
   font-size: 1rem;
   font-weight: 300;
   padding-top: 1rem;
   color: #2c2c2c;
 }
-.card-line{
+.card-line {
   width: 100%;
-  border: #4361EE 1px solid;
+  border: #4361ee 1px solid;
 }
-.blue1{
+.blue1 {
   position: absolute;
   right: -5%;
   bottom: -20%;
   animation: blobblue1 10s linear infinite;
 }
-.blue2{
+.blue2 {
   position: absolute;
   right: 30%;
   bottom: 30%;
   animation: blobblue2 10s linear infinite;
-
 }
-.pink1{
+.pink1 {
   position: absolute;
   right: -5%;
   bottom: 50%;
   animation: blobpink1 10s linear infinite;
 }
-.pink2{
+.pink2 {
   position: absolute;
   right: 70%;
   bottom: -20%;
   animation: blobpink2 10s linear infinite;
 }
-.purple1{
+.purple1 {
   position: absolute;
   right: 75%;
   bottom: 45%;
   animation: blobpurple1 10s linear infinite;
 }
-.purple2{
+.purple2 {
   position: absolute;
   right: 50%;
   bottom: -15%;
@@ -244,7 +243,6 @@ section{
     right: -5%;
     bottom: -20%;
   }
-
 }
 
 @keyframes blobblue2 {
@@ -268,7 +266,6 @@ section{
     right: 30%;
     bottom: 30%;
   }
-
 }
 
 @keyframes blobpink1 {
@@ -292,7 +289,6 @@ section{
     right: -5%;
     bottom: 50%;
   }
-
 }
 @keyframes blobpink2 {
   0% {
@@ -315,7 +311,6 @@ section{
     right: 70%;
     bottom: -20%;
   }
-
 }
 @keyframes blobpurple1 {
   0% {
@@ -338,7 +333,6 @@ section{
     right: 75%;
     bottom: 45%;
   }
-
 }
 @keyframes blobpurple2 {
   0% {
@@ -361,5 +355,48 @@ section{
     right: 50%;
     bottom: -15%;
   }
+}
 
+#about-description {
+  padding-top: 20px;
+  font-family: "Livemono";
+}
+
+#content {
+  background: linear-gradient(0.25turn, #bac5f4, #f0c5f6);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  font-family: "Livemono";
+  color: #4361ee;
+}
+
+.content-card {
+  background-color: #ffffff;
+  height: auto;
+  width: 250px;
+  border: 2px solid #4361ee;
+  border-radius: 26px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+
+.content-card h3 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.content-card p {
+  padding: 10px 15px 10px 15px;
+  color: #2c2c2c;
+}
+
+.content-card img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0px 15px 0px;
 }
