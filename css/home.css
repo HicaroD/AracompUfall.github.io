@@ -45,7 +45,7 @@ section {
 
 .navbar-items li {
   list-style-type: none;
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   padding: 1rem;
 }
 
@@ -80,7 +80,7 @@ section {
 
 #description {
   padding: 0 8rem;
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   font-size: 1.25rem;
   color: #7209b7;
   padding-bottom: 1rem;
@@ -96,7 +96,7 @@ section {
   border-radius: 8px;
   color: #ffffff;
   background-color: #f72585;
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   font-size: 1rem;
   padding: 0.75rem 3rem;
   border: none;
@@ -112,7 +112,7 @@ section {
   transition: background-color 0.2s ease-in-out;
   background-color: #7209b7;
 }
-.divider-home{
+.divider-home {
   display: block;
   z-index: 0;
   background-image: url("../img/elements/Divider.svg");
@@ -120,7 +120,7 @@ section {
   background-size: cover;
   bottom: 0;
   width: 100vw;
-  height: 35vh; 
+  height: 35vh;
 }
 
 .card-area {
@@ -160,20 +160,20 @@ section {
   border-radius: 100%;
 }
 .speaker-name {
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   font-size: 2rem;
   font-weight: 500;
   color: #4361ee;
   transition: 0.2s all ease-in-out;
 }
 .speaker-title {
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   font-size: 1rem;
   font-weight: 300;
   color: #7209b7;
 }
 .speaker-description {
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   font-size: 1rem;
   font-weight: 300;
   padding-top: 1rem;
@@ -357,7 +357,7 @@ section {
 
 #about-description {
   padding-top: 20px;
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
 }
 
 #content {
@@ -369,7 +369,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 50px;
-  font-family: "Livemono";
+  font-family: "Source Code Pro";
   color: #4361ee;
 }
 
