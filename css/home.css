@@ -376,7 +376,7 @@ section {
 .content-card {
   background-color: #ffffff;
   height: auto;
-  width: 250px;
+  width: 258px;
   border: 2px solid #4361ee;
   border-radius: 26px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -389,7 +389,7 @@ section {
 }
 
 .content-card p {
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px 25px 15px;
   color: #2c2c2c;
 }
 
