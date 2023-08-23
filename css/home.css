@@ -412,6 +412,7 @@ section {
 
 #contact {
   display: flex;
+  padding-top: 20px;
 }
 
 #contact-info {
