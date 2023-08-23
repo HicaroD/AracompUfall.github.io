@@ -405,3 +405,19 @@ section {
   border-color: #f72585;
   transition: 0.4s ease-in-out;
 }
+
+#contact-us {
+  font-family: "Source Code Pro";
+}
+
+#contact {
+  display: flex;
+}
+
+#contact-info {
+  width: 40%;
+}
+
+#instagram {
+  display: flex;
+}
