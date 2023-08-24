@@ -430,20 +430,30 @@ section {
   width: 50%;
   border: 1px solid #7209b7;
   border-radius: 32px;
-  padding: 10px;
+  padding: 30px;
 }
 
-#fields {
-  display: flex;
-  justify-content: center;
-}
-
-#contact-form input::placeholder {
+#contact-form input::placeholder,
+#message-field::placeholder {
   color: #7e94fa;
   opacity: 1;
 }
 
+#fields {
+  display: grid;
+}
+
 #credentials {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#message-field {
+  margin-top: 10px;
+  resize: none;
+}
+
+#submit-button {
+  float: right;
 }
