@@ -424,6 +424,8 @@ section {
 
 #instagram {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #contact-form {
