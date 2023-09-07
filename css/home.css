@@ -444,6 +444,7 @@ section {
   border: none;
   border-radius: 15px;
   padding: 15px;
+  font-size: 14px;
 }
 
 #fields input::placeholder, #fields textarea::placeholder {
