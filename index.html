@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/home.css" />
     <script src="js/home.js" defer></script>
+    <script src="js/email.js" defer></script>
   </head>
   <body>
     <header>
@@ -52,14 +53,14 @@
           <div class="home">
             <div class="aracomp-info">
               <h1 id="title">
-                <span style="color: #7209b7">_</span>entre 4 e 6 de setembro!
+                <span style="color: #7209b7">_</span>entre 04 e 06 de dezembro!
               </h1>
               <p id="description">
                 Prepare-se para o maior evento de computação e tecnologia da
                 UFAL - campus Arapiraca_
               </p>
             </div>
-            <div class="learn-more-button">
+            <div class="aracomp-button">
               <button>_saiba mais_</button>
             </div>
           </div>
@@ -186,6 +187,65 @@
       <section id="contact-us">
         <div class="section-title">
           <h1><span style="color: #f72585">_</span>Fale conosco!</h1>
+        </div>
+
+        <div id="contact">
+          <div id="contact-info">
+            <p>
+              _Restou alguma dúvida? Não deixe de enviar um e-mail para nós e
+              faremos o possível para responder!
+            </p>
+            <br />
+            <br />
+            <p>
+              _Ah... e não esqueça de nos acompanhar no nosso
+              <span style="color: #f72585">instagram</span>, estaremos postando
+              várias atualizações sobre o evento por lá!
+            </p>
+            <br />
+            <br />
+            <div id="instagram">
+              <p>_nosso instagram -></p>
+              <a
+                id="instragram-link"
+                href="https://www.instagram.com/aracomp.ufal/"
+                target="_blank"
+              >
+                <img src="./img/icons/instagram.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div id="contact-form">
+            <form id="form">
+              <div id="fields">
+                <div id="credentials">
+                  <input
+                    id="name-field"
+                    type="text"
+                    name="name"
+                    placeholder="Nome"
+                  />
+                  <input
+                    id="email-field"
+                    type="text"
+                    name="email"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <textarea
+                  id="message-field"
+                  rows="10"
+                  name="message"
+                  placeholder="Mensagem"
+                ></textarea>
+              </div>
+              <br />
+              <div class="aracomp-button">
+                <button id="submit-button" type="submit">_enviar_</button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </main>
