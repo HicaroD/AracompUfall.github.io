@@ -86,13 +86,13 @@ section {
   padding-bottom: 1rem;
 }
 
-.learn-more-button {
+.aracomp-button {
   z-index: 10;
   padding-top: 1rem;
   text-align: center;
 }
 
-.learn-more-button button {
+.aracomp-button button {
   border-radius: 8px;
   color: #ffffff;
   background-color: #f72585;
@@ -103,12 +103,12 @@ section {
   cursor: pointer;
 }
 
-.learn-more-button button:hover {
+.aracomp-button button:hover {
   background-color: #ff64ab;
   transition: 0.2s ease-in-out;
 }
 
-.learn-more-button button:active {
+.aracomp-button button:active {
   transition: background-color 0.2s ease-in-out;
   background-color: #7209b7;
 }
@@ -433,14 +433,25 @@ section {
   padding: 30px;
 }
 
-#contact-form input::placeholder,
-#message-field::placeholder {
-  color: #7e94fa;
-  opacity: 1;
-}
-
 #fields {
   display: grid;
+}
+
+#fields input, #fields textarea {
+  background-color: #F0F0F0;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#fields input::placeholder, #fields textarea::placeholder {
+  color: #7e94fa;
+  opacity: 1;
+  font-family: "Source Code Pro";
+}
+
+#fields input:focus, #fields textarea:focus {
+  outline: none;
 }
 
 #credentials {
