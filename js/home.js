@@ -1,4 +1,4 @@
-const learnMoreButtonPath = ".learn-more-button > button:nth-child(1)";
+const learnMoreButtonPath = ".aracomp-button > button:nth-child(1)";
 
 const learnMoreButton = document.querySelector(learnMoreButtonPath);
 learnMoreButton.addEventListener("click", function () {
