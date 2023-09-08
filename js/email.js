@@ -8,10 +8,10 @@ document.getElementById("form").addEventListener("submit", function (event) {
   const message = document.getElementById("message-field").value;
 
   const emailBody = `mailto:${encodeURIComponent(
-    to
+    to,
   )}?cc=${name}&bcc=${from}&subject=${encodeURIComponent(
-    subject
+    subject,
   )}&body=${encodeURIComponent(message)}`;
 
-  window.open(emailBody);
+  location.href.open(emailBody);
 });
