@@ -123,6 +123,10 @@ section {
   height: 35vh;
 }
 
+#aracomp-title {
+  color: #4361EE;
+}
+
 .card-area {
   display: flex;
   flex-direction: column;
@@ -473,4 +477,29 @@ section {
 
 #submit-button {
   float: right;
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 0.2rem 2rem;
+  }
+
+  #aracomp-title {
+    font-size: 25px;
+  }
+
+  #about-description p:last-child {
+    margin-bottom: 30px;
+  }
+
+  #o-que-teremos-title {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .content-card {
+    margin-bottom: 25px;
+    width: auto;
+  }
 }
