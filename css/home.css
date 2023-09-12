@@ -428,7 +428,6 @@ section {
 
 #instagram {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -479,7 +478,7 @@ section {
   float: right;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
   section {
     padding: 0.2rem 2rem;
   }
@@ -501,5 +500,32 @@ section {
   .content-card {
     margin-bottom: 25px;
     width: auto;
+  }
+
+  #contact {
+    flex-wrap: wrap;
+  }
+
+  #fale-conosco-title {
+    font-size: 25px;
+  }
+
+  #contact-info, #contact-form {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  #credentials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #credentials input {
+    width: 100%;
+  }
+
+  #instagram {
+    margin-bottom: 15px;
   }
 }
