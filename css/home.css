@@ -124,7 +124,7 @@ section {
 }
 
 #aracomp-title {
-  color: #4361EE;
+  color: #4361ee;
 }
 
 .card-area {
@@ -490,7 +490,7 @@ section {
   }
 
   .aracomp-button button {
-    padding: 0.60rem 10px;
+    padding: 0.6rem 10px;
   }
 
   section {
@@ -524,7 +524,8 @@ section {
     font-size: 25px;
   }
 
-  #contact-info, #contact-form {
+  #contact-info,
+  #contact-form {
     width: auto;
     margin: 0 auto;
   }

@@ -13,5 +13,5 @@ document.getElementById("form").addEventListener("submit", function (event) {
     subject,
   )}&body=${encodeURIComponent(message)}`;
 
-  location.href.open(emailBody);
+  window.location = emailBody;
 });
