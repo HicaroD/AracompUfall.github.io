@@ -479,6 +479,10 @@ section {
 }
 
 @media (max-width: 900px) {
+  .navbar-items {
+    display: none;
+  }
+
   #title {
     font-size: 2rem;
   }
