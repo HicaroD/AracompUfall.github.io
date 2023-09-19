@@ -122,18 +122,18 @@ section {
   width: 100vw;
   height: 35vh;
 }
-.icon{
+.icon {
   padding: 1.5rem;
   position: relative;
 }
-.icon-element{
+.icon-element {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   fill: #4361ee;
 }
-.icon-holder{
+.icon-holder {
   stroke: #4361ee;
   stroke-width: 2px;
   transform: scale(1.2);
@@ -422,7 +422,7 @@ section {
   padding: 10px 15px 25px 15px;
   color: #2c2c2c;
 }
-.card-info-description{
+.card-info-description {
   text-align: center;
   font-weight: 500;
 }
@@ -434,20 +434,20 @@ section {
 }
 
 .content-card:hover,
-.content-card:hover .card-title{
+.content-card:hover .card-title {
   color: #f72585;
   border-color: #f72585;
   transition: 0.4s ease-in-out;
 }
-.content-card:hover .icon{
+.content-card:hover .icon {
   transform: translateY(-2px);
   transition: 0.4s ease-in-out;
 }
-.content-card:hover .icon-element{
+.content-card:hover .icon-element {
   fill: #f72585;
   transition: 0.4s ease-in-out;
 }
-.content-card:hover .icon-holder{
+.content-card:hover .icon-holder {
   stroke: #f72585;
   transition: 0.4s ease-in-out;
 }
