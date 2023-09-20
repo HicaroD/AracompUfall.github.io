@@ -186,12 +186,17 @@ section {
   color: #4361ee;
   transition: 0.2s all ease-in-out;
 }
-.speaker-title {
+.speaker-title, .speaker-date {
   font-family: "Source Code Pro";
   font-size: 1rem;
   font-weight: 300;
   color: #7209b7;
 }
+
+.speaker-date {
+  padding-top: 5px;
+}
+
 .speaker-description {
   font-family: "Source Code Pro";
   font-size: 1rem;
