@@ -186,7 +186,8 @@ section {
   color: #4361ee;
   transition: 0.2s all ease-in-out;
 }
-.speaker-title, .speaker-date {
+.speaker-title,
+.speaker-date {
   font-family: "Source Code Pro";
   font-size: 1rem;
   font-weight: 300;
