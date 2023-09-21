@@ -1,6 +1,7 @@
 .home-content {
   z-index: 1;
 }
+
 .gradient {
   z-index: -1;
   position: fixed;
@@ -11,17 +12,21 @@
   background-color: #fff;
   filter: blur(180px);
 }
+
 #blob {
   min-width: 45%;
 }
+
 section {
   padding: 1.5rem 8rem;
   background-color: #fff;
 }
+
 #welcomepage {
   background-color: transparent;
   padding: 0;
 }
+
 .section-title {
   color: #2c2c2c;
   font-family: "Organo";
@@ -112,6 +117,7 @@ section {
   transition: background-color 0.2s ease-in-out;
   background-color: #7209b7;
 }
+
 .divider-home {
   display: block;
   z-index: 0;
@@ -122,10 +128,12 @@ section {
   width: 100vw;
   height: 35vh;
 }
+
 .icon {
   padding: 1.5rem;
   position: relative;
 }
+
 .icon-element {
   position: absolute;
   top: 50%;
@@ -133,11 +141,13 @@ section {
   transform: translate(-50%, -50%);
   fill: #4361ee;
 }
+
 .icon-holder {
   stroke: #4361ee;
   stroke-width: 2px;
   transform: scale(1.2);
 }
+
 #aracomp-title {
   color: #4361ee;
 }
@@ -145,40 +155,51 @@ section {
 .card-area {
   display: flex;
   flex-direction: column;
-  padding-top: 3rem;
 }
+
 .card {
   padding-top: 2rem;
 }
+
 .card:hover .speaker-name {
   color: #7209b7;
 }
+
 .card:hover .card-line {
   border: #7209b7 1px solid;
 }
+
+#speakers .card:first-child {
+  margin-top: 3rem;
+}
+
 .card-content {
   display: flex;
   flex-direction: row;
-  /* gap: 20rem; */
   justify-content: space-between;
   padding-bottom: 1.5rem;
 }
+
 .card-content-reversed {
   display: flex;
   flex-direction: row;
-  gap: 10rem;
   padding-bottom: 1.5rem;
 }
-.card-text-area {
-  display: flex;
-  flex-direction: column;
-  padding-top: 5rem;
-  width: 50%;
+
+.card-content-reversed .card-text-area {
+  margin-left: 5rem;
 }
+
+.card-text-area {
+  width: 50%;
+  float: right;
+}
+
 .card-image-area img {
   width: 20rem;
   border-radius: 100%;
 }
+
 .speaker-name {
   font-family: "Source Code Pro";
   font-size: 2rem;
@@ -595,5 +616,13 @@ section {
 
   #instagram {
     margin-bottom: 15px;
+  }
+
+  .card .card-content {
+    flex-direction: row-reverse;
+  }
+
+  .card .card-image-area img {
+    width: 100px;
   }
 }
