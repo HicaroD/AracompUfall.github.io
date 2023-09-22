@@ -1,4 +1,6 @@
-.home, .navbar, .divider-home {
+.home,
+.navbar,
+.divider-home {
   background: rgb(240, 197, 246);
   background: linear-gradient(
     90deg,
@@ -113,6 +115,7 @@ section {
   border-bottom-right-radius: 100%;
   width: 100vw;
   height: 30vh;
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -448,5 +451,9 @@ section {
 
   .card-image-area img {
     width: 150px;
+  }
+
+  .divider-home {
+    border-bottom-right-radius: 70%;
   }
 }
