@@ -175,7 +175,6 @@ section {
 
 .card-content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-bottom: 1.5rem;
 }
@@ -622,7 +621,15 @@ section {
     flex-direction: row-reverse;
   }
 
-  .card .card-image-area img {
-    width: 100px;
+  .card-content-reversed .card-text-area {
+    margin-left: 0;
+  }
+
+  .card-content-reversed {
+    justify-content: space-between;
+  }
+
+  .card-image-area img {
+    width: 150px;
   }
 }
