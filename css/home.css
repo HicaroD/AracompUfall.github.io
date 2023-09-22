@@ -456,4 +456,19 @@ section {
   .divider-home {
     border-bottom-right-radius: 70%;
   }
+
+  .card-header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .card-header .card-title {
+    text-align: start;
+  }
+
+  .card-info-description {
+    text-align: start;
+  }
 }
