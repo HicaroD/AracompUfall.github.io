@@ -118,6 +118,10 @@ section {
   margin-bottom: 50px;
 }
 
+.card-header {
+  text-align: center;
+}
+
 .icon {
   padding: 1.5rem;
   position: relative;
