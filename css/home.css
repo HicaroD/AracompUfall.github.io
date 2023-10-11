@@ -243,15 +243,14 @@ section {
 #classes {
   background: linear-gradient(0.25turn, #bac5f4, #f0c5f6);
 }
-.courses-cards{
+.courses-cards {
   font-family: "Source Code Pro";
   padding-top: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 2rem;
-
 }
-.course-card-content{
+.course-card-content {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -259,15 +258,15 @@ section {
   border-radius: 26px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-collapse: collapse;
-  padding: 2rem 2rem 0rem 2rem
+  padding: 2rem 2rem 0rem 2rem;
 }
-.course-card-top{
+.course-card-top {
   padding: 1rem 0rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #4361ee;
 }
-.course-card-title{
+.course-card-title {
   padding-bottom: 1rem;
   font-size: larger;
   color: #4361ee;
@@ -278,44 +277,41 @@ section {
   gap: 1rem;
   align-items: center;
 }
-.course-info img{
+.course-info img {
   width: 1.5rem;
 }
 
-.course-card-infos{
+.course-card-infos {
   display: flex;
   gap: 2rem;
   flex-direction: row;
 }
 
-.course-card-description{
+.course-card-description {
   padding: 1rem 0;
-
-  
 }
-.course-card-instructors{
+.course-card-instructors {
   border-top: 2px solid #4361ee;
   padding: 1rem 0;
   margin-top: auto;
   color: #4361ee;
-
 }
-.course-instructor-name{
+.course-instructor-name {
   color: #2c2c2c;
 }
-.course-instructor-area{
+.course-instructor-area {
   padding: 1rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
 }
-.course-instructor{
+.course-instructor {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
-.course-instructor-picture{
+.course-instructor-picture {
   width: 3rem;
   height: 3rem;
   background-color: #2c2c2c;
@@ -454,6 +450,96 @@ section {
   float: right;
 }
 
+/* Cronograma do evento */
+.days {
+  display: flex;
+}
+
+.day {
+  padding-top: 1.5rem;
+  font-family: "Source Code Pro";
+  overflow: hidden;
+}
+
+.day h3 {
+  padding-bottom: 15px;
+}
+
+.day-timeline {
+  padding-left: 12px;
+  border-left-style: dashed;
+  border-left-color: #2c2c2c;
+  border-left-width: 2px;
+  height: 100%;
+}
+
+.day-timeline > div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding-bottom: 15px;
+  font-size: 95%;
+}
+
+.time > p {
+  padding-right: 50px;
+}
+
+.day-timeline .content {
+  width: 100%;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 25px 15px;
+}
+
+.other .time {
+  color: #2c2c2c;
+}
+
+.other .content {
+  border: solid 1px #2c2c2c;
+}
+
+.other .content p:first-child {
+  color: #2c2c2c;
+}
+
+.course .time {
+  color: #4361ee;
+}
+
+.course .content {
+  border: solid 1px #4361ee;
+}
+
+.course .content p:first-child {
+  color: #4361ee;
+}
+
+.talk .time {
+  color: #f72585;
+}
+
+.talk .content {
+  border: solid 1px #f72585;
+}
+
+.talk .content p:first-child {
+  color: #f72585;
+}
+
+.mesa-redonda .time {
+  color: #7209b7;
+}
+
+.mesa-redonda .content {
+  border: solid 1px #7209b7;
+}
+
+.mesa-redonda .content p:first-child {
+  color: #7209b7;
+}
+
 @media (max-width: 900px) {
   .navbar-items {
     display: none;
@@ -557,5 +643,12 @@ section {
 
   .card-info-description {
     text-align: start;
+  }
+
+  #timeline h1 {
+    font-size: 25px;
+  }
+  .days {
+    flex-wrap: wrap;
   }
 }
