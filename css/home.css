@@ -240,12 +240,95 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+#classes {
+  background: linear-gradient(0.25turn, #bac5f4, #f0c5f6);
+}
+.courses-cards{
+  font-family: "Source Code Pro";
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+
+}
+.course-card-content{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 2px solid #4361ee;
+  border-radius: 26px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+  padding: 2rem 2rem 0rem 2rem
+}
+.course-card-top{
+  padding: 1rem 0rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #4361ee;
+}
+.course-card-title{
+  padding-bottom: 1rem;
+  font-size: larger;
+  color: #4361ee;
+}
+.course-info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.course-info img{
+  width: 1.5rem;
+}
+
+.course-card-infos{
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.course-card-description{
+  padding: 1rem 0;
+
+  
+}
+.course-card-instructors{
+  border-top: 2px solid #4361ee;
+  padding: 1rem 0;
+  margin-top: auto;
+  color: #4361ee;
+
+}
+.course-instructor-name{
+  color: #2c2c2c;
+}
+.course-instructor-area{
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.course-instructor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.course-instructor-picture{
+  width: 3rem;
+  height: 3rem;
+  background-color: #2c2c2c;
+  border-radius: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  object-fit: contain;
+}
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: stretch;
   padding-top: 50px;
   font-family: "Source Code Pro";
   color: #4361ee;
