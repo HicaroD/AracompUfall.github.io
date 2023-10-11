@@ -408,7 +408,7 @@ section {
   border-radius: 26px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-collapse: collapse;
-  padding: 2rem
+  padding: 2rem 2rem 0rem 2rem
 }
 .course-card-top{
   padding: 1rem 0rem 1rem 1rem;
@@ -439,11 +439,13 @@ section {
 
 .course-card-description{
   padding: 1rem 0;
+
   
 }
 .course-card-instructors{
   border-top: 2px solid #4361ee;
   padding: 1rem 0;
+  margin-top: auto;
   color: #4361ee;
 
 }
