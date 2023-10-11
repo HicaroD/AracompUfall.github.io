@@ -453,13 +453,11 @@ section {
 /* Cronograma do evento */
 .days {
   display: flex;
-  justify-content: space-between;
 }
 
 .day {
   padding-top: 1.5rem;
   font-family: "Source Code Pro";
-  font-size: 1.1rem;
   overflow: hidden;
 }
 
@@ -477,9 +475,10 @@ section {
 
 .day-timeline > div {
   display: flex;
-  /* justify-content: space-between */
   align-items: center;
+  margin-right: 20px;
   padding-bottom: 15px;
+  font-size: 95%;
 }
 
 .time > p {
@@ -487,7 +486,7 @@ section {
 }
 
 .day-timeline .content {
-  width: 40%;
+  width: 100%;
   border: solid 1px black;
   border-radius: 15px;
   padding: 25px 15px;
@@ -644,5 +643,9 @@ section {
 
   .card-info-description {
     text-align: start;
+  }
+
+  .days {
+    flex-wrap: wrap;
   }
 }
