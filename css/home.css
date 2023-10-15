@@ -676,12 +676,12 @@ section {
     flex-wrap: wrap;
   }
 
-  #sponsors .section-title {
+  #sponsors .section-title, #partners .section-title {
     font-size: 20px;
     padding-bottom: 20px;
   }
 
-  .sponsors-logo img {
+  .sponsors-logo img, .partners-logo img {
     width: 100%;
   }
 }
