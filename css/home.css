@@ -695,4 +695,8 @@ section {
   .partners-logo img {
     width: 100%;
   }
+
+  .partners-logo img {
+    padding-bottom: 30px;
+  }
 }
