@@ -541,7 +541,7 @@ section {
   color: #7209b7;
 }
 
-#sponsors {
+#sponsors, #partners {
   padding: 4rem;
   background: linear-gradient(0.25turn, #bac5f4, #f0c5f6);
   display: flex;
@@ -549,14 +549,14 @@ section {
   justify-content: center;
 }
 
-.sponsors-logo {
+.sponsors-logo, .partners-logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.sponsors-logo img {
-  width: 30%;
+.sponsors-logo img, .partners-logo img {
+  width: 25%;
 }
 
 @media (max-width: 900px) {
