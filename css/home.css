@@ -25,6 +25,7 @@ section {
   font-family: "Organo";
   font-size: x-large;
   font-weight: 200;
+  padding-bottom: 8rem;
 }
 
 .navbar {
@@ -146,12 +147,35 @@ section {
 }
 
 .card-area {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.bottom-content{
+  padding: 0rem 1rem;
 }
 
 .card {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
+  border-radius: 2rem;
+  border: 2px solid #4361ee;
+}
+.card-top{
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.card-top img{
+  min-width: 5rem;
+  width: 5rem;
+}
+.card-text-area{
+  padding-left: 8rem;
+  padding: 0rem 1rem;
 }
 
 .card:hover .speaker-name {
@@ -162,39 +186,15 @@ section {
   border: #7209b7 1px solid;
 }
 
-#speakers .card:first-child {
-  margin-top: 3rem;
-}
-
 .card-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding-bottom: 1.5rem;
-}
-
-.card-content-reversed {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 1.5rem;
-}
-
-.card-content-reversed .card-text-area {
-  margin-left: 5rem;
-}
-
-.card-text-area {
-  width: 50%;
-  float: right;
-}
-
-.card-image-area img {
-  width: 20rem;
-  border-radius: 100%;
 }
 
 .speaker-name {
   font-family: "Source Code Pro";
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #4361ee;
   transition: 0.2s all ease-in-out;
@@ -203,14 +203,11 @@ section {
 .speaker-title,
 .speaker-date {
   font-family: "Source Code Pro";
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
   color: #7209b7;
 }
 
-.speaker-date {
-  padding-top: 5px;
-}
 
 .speaker-description {
   font-family: "Source Code Pro";
@@ -247,7 +244,7 @@ section {
   font-family: "Source Code Pro";
   padding-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 2rem;
 }
 .course-card-content {
@@ -261,7 +258,7 @@ section {
   padding: 2rem 2rem 0rem 2rem;
 }
 .course-card-top {
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #4361ee;
@@ -336,7 +333,7 @@ section {
   align-items: center;
   background-color: #ffffff;
   height: auto;
-  width: 258px;
+  width: 300px;
   border: 2px solid #4361ee;
   border-radius: 26px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -640,22 +637,6 @@ section {
 
   #instagram {
     margin-bottom: 15px;
-  }
-
-  .card .card-content {
-    flex-direction: row-reverse;
-  }
-
-  .card-content-reversed .card-text-area {
-    margin-left: 0;
-  }
-
-  .card-content-reversed {
-    justify-content: space-between;
-  }
-
-  .card-image-area img {
-    width: 150px;
   }
 
   .divider-home {
