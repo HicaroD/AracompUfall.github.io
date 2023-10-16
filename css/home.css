@@ -565,6 +565,15 @@ section {
   height: 15%;
 }
 
+@media (max-width: 400px) {
+  .courses-cards {
+    grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
+  }
+
+  .card-area {
+    grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
+  }
+}
 @media (max-width: 900px) {
   .navbar-items {
     display: none;
@@ -585,7 +594,7 @@ section {
   }
 
   section {
-    padding: 2rem 3rem;
+    padding: 2rem;
   }
 
   .section-title {
