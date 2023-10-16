@@ -211,7 +211,7 @@ section {
 .speaker-description {
   font-family: "Source Code Pro";
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 1rem;
   color: #2c2c2c;
 }
@@ -565,7 +565,7 @@ section {
 }
 
 @media (max-width: 400px) {
-  .section-title h1{
+  .section-title h1 {
     font-size: 20px;
   }
   .courses-cards {
@@ -598,7 +598,7 @@ section {
   section {
     padding: 2rem;
   }
-  .section-title h1{
+  .section-title h1 {
     font-size: 25px;
   }
   .section-title {
