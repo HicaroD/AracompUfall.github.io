@@ -25,7 +25,7 @@ section {
   font-family: "Organo";
   font-size: x-large;
   font-weight: 200;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
 }
 
 .navbar {
@@ -147,6 +147,7 @@ section {
 }
 
 .card-area {
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 2rem;
@@ -564,6 +565,9 @@ section {
 }
 
 @media (max-width: 400px) {
+  .section-title h1{
+    font-size: 20px;
+  }
   .courses-cards {
     grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
   }
@@ -594,9 +598,12 @@ section {
   section {
     padding: 2rem;
   }
-
+  .section-title h1{
+    font-size: 25px;
+  }
   .section-title {
     text-align: center;
+    padding-bottom: 2rem;
   }
 
   #aracomp-title {
@@ -615,7 +622,7 @@ section {
 
   .content-card {
     margin-bottom: 25px;
-    width: auto;
+    width: 400px;
   }
 
   #contact {
@@ -686,13 +693,5 @@ section {
 
   .partners-logo img {
     padding-bottom: 30px;
-  }
-
-  #speakers .card {
-    width: 90%;
-  }
-
-  #classes .course-card-content {
-    width: 70%;
   }
 }
