@@ -680,4 +680,12 @@ section {
   .partners-logo img {
     padding-bottom: 30px;
   }
+
+  #speakers .card {
+    width: 90%;
+  }
+
+  #classes .course-card-content {
+    width: 80%;
+  }
 }
