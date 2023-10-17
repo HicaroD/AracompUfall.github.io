@@ -19,16 +19,31 @@
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="img/logos/logo.svg" type="image/svg" />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <script src="js/home.js" defer></script>
-    <script src="js/email.js" defer></script>
+    <link rel="shortcut icon" href="./img/logos/logo.svg" type="image/svg" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script src="./js/home.js" defer></script>
+    <script src="./js/email.js" defer></script>
+    <script>
+      (function (w, d, s, o, f, js, fjs) {
+        w["barra-ufal"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(window, document, "script", "barra", "//barra.ufal.br/widget.js");
+    </script>
   </head>
   <body>
     <header>
       <div class="navbar">
-        <img src="img/logos/logo2.png" alt="" />
+        <img src="./img/logos/logo2.png" alt="" />
         <ul class="navbar-items">
           <li><a href="#about">_sobre_</a></li>
           <li><a href="#content">_conteúdo_</a></li>
@@ -301,7 +316,7 @@
           <div class="card">
             <div class="card-content">
               <div class="card-top">
-                <img src="img/participants/douglas-modified.png" alt="" />
+                <img src="./img/participants/douglas-modified.png" alt="" />
                 <div class="card-text-area">
                   <div class="speaker-name">Douglas Moura</div>
                   <div class="speaker-title">
@@ -325,7 +340,7 @@
           <div class="card">
             <div class="card-content">
               <div class="card-top">
-                <img src="img/participants/valdenio-modified.png" alt="" />
+                <img src="./img/participants/valdenio-modified.png" alt="" />
                 <div class="card-text-area">
                   <div class="speaker-name">Valdênio Freitas</div>
                   <div class="speaker-title">
@@ -376,7 +391,10 @@
           <div class="card">
             <div class="card-content">
               <div class="card-top">
-                <img src="./img/participants/maria_julia-modified.png" alt="" />
+                <img
+                  src="./img/participants/maria_julia-modified.png"
+                  alt=""
+                />
                 <div class="card-text-area">
                   <div class="speaker-name">Maria Júlia</div>
                   <div class="speaker-title">
@@ -497,11 +515,11 @@
               </div>
               <div class="course-card-infos">
                 <div class="course-info">
-                  <img src="img/icons/local.png" alt="local" />
+                  <img src="./img/icons/local.png" alt="local" />
                   LECC 1
                 </div>
                 <div class="course-info">
-                  <img src="img/icons/calendar.png" alt="local" />
+                  <img src="./img/icons/calendar.png" alt="local" />
                   05/12
                 </div>
               </div>
@@ -521,11 +539,11 @@
               <div class="course-card-title">_Minicurso de Arduino</div>
               <div class="course-card-infos">
                 <div class="course-info">
-                  <img src="img/icons/local.png" alt="local" />
+                  <img src="./img/icons/local.png" alt="local" />
                   LECC 2
                 </div>
                 <div class="course-info">
-                  <img src="img/icons/calendar.png" alt="local" />
+                  <img src="./img/icons/calendar.png" alt="local" />
                   05/12
                 </div>
               </div>
@@ -548,11 +566,11 @@
               </div>
               <div class="course-card-infos">
                 <div class="course-info">
-                  <img src="img/icons/local.png" alt="local" />
+                  <img src="./img/icons/local.png" alt="local" />
                   LECC 2
                 </div>
                 <div class="course-info">
-                  <img src="img/icons/calendar.png" alt="local" />
+                  <img src="./img/icons/calendar.png" alt="local" />
                   05/12
                 </div>
               </div>
@@ -573,11 +591,11 @@
               <div class="course-card-title">_Minicurso de Flutter</div>
               <div class="course-card-infos">
                 <div class="course-info">
-                  <img src="img/icons/local.png" alt="local" />
+                  <img src="./img/icons/local.png" alt="local" />
                   LECC 3
                 </div>
                 <div class="course-info">
-                  <img src="img/icons/calendar.png" alt="local" />
+                  <img src="./img/icons/calendar.png" alt="local" />
                   06/12
                 </div>
               </div>
@@ -599,11 +617,11 @@
               </div>
               <div class="course-card-infos">
                 <div class="course-info">
-                  <img src="img/icons/local.png" alt="local" />
+                  <img src="./img/icons/local.png" alt="local" />
                   LECC 2
                 </div>
                 <div class="course-info">
-                  <img src="img/icons/calendar.png" alt="local" />
+                  <img src="./img/icons/calendar.png" alt="local" />
                   06/12
                 </div>
               </div>
@@ -1077,7 +1095,11 @@
         </div>
 
         <div class="partners-logo">
-          <img id="cc-logo" src="./img/partners/logo_cc_arapiraca.png" alt="" />
+          <img
+            id="cc-logo"
+            src="./img/partners/logo_cc_arapiraca.png"
+            alt=""
+          />
           <img id="katie-logo" src="./img/partners/logo_katie.png" alt="" />
           <img src="./img/partners/logo-laccan-completa.png" alt="" />
         </div>
